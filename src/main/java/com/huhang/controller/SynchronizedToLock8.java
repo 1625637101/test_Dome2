@@ -17,10 +17,12 @@ public class SynchronizedToLock8 {
     }
 
     public void method2(){
+        //加锁
         lock.lock();
         try {
             System.out.println("我是lock形式的锁");
         }finally {
+            //释放锁
             lock.unlock();
         }
     }
