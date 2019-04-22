@@ -17,7 +17,7 @@ public class SynchronizedToLock8 {
     }
 
     public void method2(){
-        //加锁
+        //加锁123
         lock.lock();
         try {
             System.out.println("我是lock形式的锁");
